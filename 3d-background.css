@@ -1,0 +1,152 @@
+/* =========================================
+   ABOUT — INTERACTIVE 3D BACKGROUND
+========================================= */
+.about {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+/* 3D canvas */
+#about3D {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+/* Keep About content above the canvas */
+
+.about > *:not(#about3D) {
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================
+   SKILLS — 3D DIGITAL BACKGROUND
+========================================= */
+
+.skills {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#skills3D {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+.skills > *:not(#skills3D) {
+    position: relative;
+    z-index: 2;
+}
+
+/* ============================= */
+/* PROJECTS 3D BACKGROUND */
+/* ============================= */
+.projects {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#projects3D {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.projects > *:not(#projects3D) {
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================
+   EXPERIENCE 3D BACKGROUND
+========================================= */
+
+.experience {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#experience3D {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    pointer-events: none;
+}
+
+.experience > *:not(#experience3D) {
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================
+   EDUCATION 3D BACKGROUND
+========================================= */
+
+.education {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#education3D {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.education > *:not(#education3D) {
+    position: relative;
+    z-index: 2;
+}
+/* =========================================
+   CONTACT 3D BACKGROUND
+========================================= */
+
+.contact {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#contact3D {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    pointer-events: none;
+}
+
+.contact > *:not(#contact3D) {
+    position: relative;
+    z-index: 2;
+}
